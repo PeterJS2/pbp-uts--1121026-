@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     const loadData = async () => {
       const data = await getBuku();
-      console.log(data); // cek apakah data masuk
+      console.log(data); 
       setBooks(data);
     };
 
